@@ -1,0 +1,72 @@
+@font-face {
+     font-family: Robotoreg;
+     src: url(assets/Roboto-Regular.ttf);
+ }
+
+@font-face {
+     font-family: segoebk;
+     src: url(assets/seguisb_0.ttf);
+ }
+ 
+@font-face {
+     font-family: segoeui;
+     src: url(assets/segoeui_0.ttf);
+ }
+ @font-face {
+     font-family: Robotobold;
+     src: url(assets/Roboto-Bold.ttf);
+ }
+ @font-face {
+     font-family: Robotomed;
+     src: url(assets/Roboto-Medium.ttf);
+ }
+ @font-face {
+     font-family: Robotoblack;
+     src: url(assets/Roboto-Black.ttf);
+ }
+@font-face {
+  font-family: 'RobotoDraft';
+  font-style: normal;
+  src: local('RobotoDraft Bold'), local('RobotoDraft-Bold'), url(http://fonts.gstatic.com/s/robotodraft/v4/u0_CMoUf3y3-4Ss4ci-VwYlIZu-HDpmDIZMigmsroc4.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'RobotoDraftLight';
+  font-style: normal;
+  src: local('RobotoDraft Light'), local('RobotoDraft-Light'), url(http://fonts.gstatic.com/s/robotodraft/v4/u0_CMoUf3y3-4Ss4ci-VwUo2lTMeWA_kmIyWrkNCwPc.woff2) format('woff2');
+}  
+
+
+label > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+label > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:2px solid #f00;
+}
+
+
+a:link {
+    color: blueviolet;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
